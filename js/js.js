@@ -58,7 +58,6 @@ $(function() {
 
 			for (var i = v_cardInicio-1; i < v_cardFim-1; i++) {
 				v_foto = retornoDani.articles[i].urlToImage;
-				//if(v_foto==null){v_foto = "http://www.meudominio.com.br/img/fotocinza.jpg";v_foto = 'src="' + v_foto + '"';}
 				if(v_foto==null){v_foto="";}else{v_foto = 'src="' + v_foto + '"';}
 
 				v_datatemp = retornoDani.articles[i].publishedAt;
